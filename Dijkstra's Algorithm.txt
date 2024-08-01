@@ -1,0 +1,14 @@
+Dijkstra's Algorithm:
+
+path, dist, and found arrays are used to store path information, distances, and visited vertices.
+print_step(): Prints the current state of the algorithm.
+print_shortest_path(): Prints the shortest path between two vertices.
+choose_vertex(): Selects the vertex with the minimum distance from the set of unvisited vertices.
+shortest_path_dijkstra(): Implements Dijkstra's algorithm to find shortest paths.
+
+How the Code Works:
+Dijkstra's Algorithm Execution:
+The shortest_path_dijkstra() function is called with the starting vertex (index 0 in this case).
+The algorithm iteratively finds the shortest path to each vertex, updating distances and paths in the dist and path arrays.
+choose_vertex() selects the unvisited vertex with the minimum distance.
+The print_step() function provides intermediate results for debugging purposes.
